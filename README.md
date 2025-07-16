@@ -8,11 +8,11 @@ Ce projet met l’accent sur la modularité, le style personnalisé et la persis
 
 ## 🖼️ Aperçu
 ### Aperçu de l'application
-![Aperçu premiere partie](./src/assets/gif_part_1.gif)
-![Aperçu deuxieme partie](./src/assets/gif_part_2.gif)
-![Aperçu troisieme partie](./src/assets/gif_part_3.gif)
-![Aperçu quatrieme partie](./src/assets/gif_part_4.gif)
-![Aperçu cinquieme partie](./src/assets/gif_part_5.gif)
+![Aperçu premiere partie](src/assets/gif_part_1.gif)
+![Aperçu deuxieme partie](src/assets/gif_part_2.gif)
+![Aperçu troisieme partie](src/assets/gif_part_3.gif)
+![Aperçu quatrieme partie](src/assets/gif_part_4.gif)
+![Aperçu cinquieme partie](src/assets/gif_part_5.gif)
 ---
 
 ## 🚀 Fonctionnalités
