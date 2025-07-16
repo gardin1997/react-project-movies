@@ -8,12 +8,11 @@ Ce projet met l’accent sur la modularité, le style personnalisé et la persis
 
 ## 🖼️ Aperçu
 ### Aperçu de l'application
-![Aperçu premiere partie](./src/assets/git_part_1.gif)
-![Aperçu deuxieme partie](./src/assets/git_part_2.gif)
-![Aperçu troisieme partie](./src/assets/git_part_3.gif)
-![Aperçu quatrieme partie](./src/assets/git_part_4.gif)
-![Aperçu cinquieme partie](./src/assets/git_part_5.gif)
-
+![Aperçu premiere partie](./src/assets/gif_part_1.gif)
+![Aperçu deuxieme partie](./src/assets/gif_part_2.gif)
+![Aperçu troisieme partie](./src/assets/gif_part_3.gif)
+![Aperçu quatrieme partie](./src/assets/gif_part_4.gif)
+![Aperçu cinquieme partie](./src/assets/gif_part_5.gif)
 ---
 
 ## 🚀 Fonctionnalités
@@ -40,12 +39,12 @@ Ce projet met l’accent sur la modularité, le style personnalisé et la persis
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/ton-nom/MovieExplorer.git
+   git clone https://github.com/nisan95/Movies.git
    ```
 
 2. Se déplacer dans le dossier :
    ```bash
-   cd Movie
+   cd Movies
    ```
 
 3. Installer les dépendances :
@@ -112,7 +111,7 @@ Movie/
 │   └── index.css
 ├── .gitignore
 ├── db.json
-├──eslint.config.js
+├── eslint.config.js
 ├── index.html
 ├── package-lock.json
 ├── package.json
@@ -125,7 +124,7 @@ Movie/
 ## 🧑‍💻 Auteur
 
 Projet réalisé par **Sanora Nigherson**  
-Initialisé avec **Vite** — Codé avec ❤️ et React
+Initialisé avec **Vite** — Codé avec javascript et React
 
 ---
 
