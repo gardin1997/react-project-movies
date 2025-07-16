@@ -1,9 +1,7 @@
-import Home from "./Home";
-import Favoris from "./Favoris";
-import NewFilm from "./NewFilm";
-import NavBar from "./NavBar";
-import { Component } from "react";
-import NotFound from "./NotFound";
+import Home from "./pages/Home";
+import Favoris from "./pages/Favoris";
+import NewFilm from "./pages/NewFilm";
+import NotFound from "./pages/NotFound";
 import App from "./App";
 
 const route=[
