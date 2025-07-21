@@ -5,7 +5,7 @@ import CardFilm from "../components/CardFilm";
 function Favoris(){
     const [films,setFilms]=useState([]);
     const loadData=()=>{
-        fetch("http://localhost:4000/films/")
+        fetch("https://json-backend-movies.onrender.com/films")
             .then(reponse=>reponse.json())
             .then(data=>{
                 const selectData=data.filter((element)=>element.favoris===true);

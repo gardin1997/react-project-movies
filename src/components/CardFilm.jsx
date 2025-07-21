@@ -5,7 +5,7 @@ function CardFilm({film,reload=()=>{}}){
     const [isFavoris, setIsFavoris]=useState(film.favoris);
     const [voirDescription,setVoirDescription]=useState(false);
     function handleClickFavoris(){
-        fetch("http://localhost:4000/films/"+film.id, {
+        fetch("https://json-backend-movies.onrender.com/films/"+film.id, {
                 method: "PATCH",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({

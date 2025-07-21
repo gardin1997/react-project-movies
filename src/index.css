@@ -63,7 +63,9 @@ nav h1 {
 .filtre ul li:hover{
   color: #EB3B3B;
 }
-
+.selected{
+  color: #EB3B3B;
+}
 /*filmlist*/
 .liste {
   display: flex;

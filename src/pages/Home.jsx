@@ -11,7 +11,7 @@ function Home() {
     const [recherche,setRecherche]=useState("");
     let selectData;
     useEffect(()=>{
-    fetch("http://localhost:4000/films/")
+    fetch("https://json-backend-movies.onrender.com/films")
         .then(reponse=>reponse.json())
         .then(data=>{
             if(filtre==="tout" && recherche==="")
@@ -29,7 +29,7 @@ function Home() {
     },[filtre,recherche]);
     return(
         <div>
-            <Filter setFiltre={(filtre)=>setFiltre(filtre)}/>
+            <Filter filter={filtre} setFiltre={(filtre)=>setFiltre(filtre)}/>
             <Search setRecherche={(valeur)=>setRecherche(valeur)}/>
             <ListFilms films={films}  renderFilm={(film) => <CardFilm film={film} />}/>
         </div>

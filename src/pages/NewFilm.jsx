@@ -20,7 +20,7 @@ function NewFilm(){
   const handleSubmit = (e) => {
     e.preventDefault();
     // Envoi vers un backend ou console log pour test
-    fetch('http://localhost:4000/films/', {
+    fetch('https://json-backend-movies.onrender.com/films', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
