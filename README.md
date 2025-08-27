@@ -1,22 +1,21 @@
-# 🎥 MovieExplorer
+#  MovieExplorer
 
 Bienvenue dans **MovieExplorer**, une application React qui transforme ta manière de parcourir et gérer tes films préférés.  
 Ce projet est conçu comme un mini Netflix personnel 🎬 — avec recherche, ajout de films et gestion de favoris, le tout sur une API locale avec `json-server`.  
 
 ---
 
-## ✨ Points forts
+##  Points forts
 
 ✅ Interface simple et intuitive  
-✅ Mode sombre 🌙 pour le confort visuel  
+✅Mode sombre pour le confort visuel  
 ✅ Gestion des favoris avec **persistance locale** via `localStorage`  
 ✅ Ajout facile de nouveaux films  
 ✅ Filtrage par genre et recherche instantanée  
 ✅ Design **responsive** (ordinateur, tablette, mobile)  
 
 ---
-
-## 📸 Démonstration
+##  Démonstration
 
 Aperçu en action :  
 
@@ -28,7 +27,7 @@ Aperçu en action :
 
 ---
 
-## 🛠️ Installation & lancement
+##  Installation & lancement
 
 Pour tester le projet en local :
 
@@ -47,9 +46,9 @@ npm run server
 
 # 5. Lancer le projet React
 npm run dev
-L’application est alors accessible sur http://localhost:5173/ 🚀
+L’application est alors accessible sur http://localhost:5173/ 
 
-📂 Organisation du projet
+ Organisation du projet
 arduino
 Copier
 Modifier
@@ -61,10 +60,10 @@ src/
 ├── route.jsx        # gestion des routes
 ├── main.jsx         # point d’entrée
 └── index.css        # style global
-⚡ Technologies clés
+ Technologies clés
 React (hooks, composants modulaires)
 
-Vite pour un dev rapide ⚡
+Vite pour un dev rapide 
 
 Tailwind CSS pour le style moderne
 
@@ -72,7 +71,7 @@ json-server pour simuler une API REST locale
 
 localStorage pour sauvegarder les favoris
 
-📚 Concepts React appliqués
+ Concepts React appliqués
 useState → gestion des états locaux
 
 useEffect → appels API & effets de bord
@@ -83,9 +82,8 @@ localStorage → stockage persistant
 
 Props et composition → composants réutilisables et modulaires
 
-👨‍💻 Auteur
+ Auteur
 Projet développé par Gardin Laurient Gervais
-🌱 Étudiant passionné de développement web et motivé par l’apprentissage continu.
+ Étudiant passionné de développement web et motivé par l’apprentissage continu.
 
-📄 Licence
-Ce projet est distribué sous licence MIT.
+
